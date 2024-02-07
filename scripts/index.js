@@ -3,12 +3,6 @@ const cardTemplate = document.querySelector('#card-template').content;
 
 // @todo: DOM узлы
 const placesList = document.querySelector('.places__list');
-const popups = document.querySelectorAll('.popup');
-const editProfileBtn = document.querySelector('.profile__edit-button');
-const popupEditProfile = document.querySelector('.popup_type_edit');
-const addNewPlaceBtn = document.querySelector('.profile__add-button');
-const popupNewCard = document.querySelector('.popup_type_new-card');
-const openedImage = document.querySelector('.popup_type_image');
 
 // @todo: Функция создания карточки
 function createCard(cardData, deleteCardCallback) {
@@ -44,7 +38,16 @@ function renderInitialCards() {
 
 renderInitialCards();
 
-// // Открытие попапа
+// Сначала неправильно поняла задание и начала работу с попапов. Жалко удалять, вдруг понадобится ещё! :)
+
+// Открытие попапа
+// const popups = document.querySelectorAll('.popup');
+// const editProfileBtn = document.querySelector('.profile__edit-button');
+// const popupEditProfile = document.querySelector('.popup_type_edit');
+// const addNewPlaceBtn = document.querySelector('.profile__add-button');
+// const popupNewCard = document.querySelector('.popup_type_new-card');
+// const openedImage = document.querySelector('.popup_type_image');
+
 // function openPopup(popupElement) {
 //   popupElement.classList.add('popup_is-opened');
 // }
